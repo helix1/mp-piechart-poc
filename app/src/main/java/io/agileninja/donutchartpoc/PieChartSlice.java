@@ -1,11 +1,11 @@
 package io.agileninja.donutchartpoc;
 
-public class PieChartData {
+public class PieChartSlice {
     private String label;
     private float value;
     private String color;
 
-    public PieChartData(String label, float value, String color) {
+    public PieChartSlice(String label, float value, String color) {
         this.label = label;
         this.value = value;
         this.color = color;
